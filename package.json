@@ -1,0 +1,74 @@
+{
+  "name": "@aqsc/eslint-config-aqsc",
+  "version": "0.0.1",
+  "description": "eslint-config-aqsc.",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "aqsc"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/qdhuadi/eslint-config-aqsc",
+  "bugs": {
+    "url": "https://github.com/qdhuadi/eslint-config-aqsc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdhuadi/eslint-config-aqsc.git"
+  },
+  "author": {
+    "name": "Ying Wang",
+    "email": "upcwangying@gmail.com",
+    "url": "https://github.com/upcwangying"
+  },
+  "contributors": [
+    {
+      "name": "Ying Wang",
+      "email": "upcwangying@gmail.com",
+      "url": "https://github.com/upcwangying"
+    }
+  ],
+  "scripts": {
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ],
+    "tasks/**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.7.1",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-html": "5.0.3",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-vue": "5.0.0",
+    "husky": "3.1.0",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1",
+    "sort-package-json": "1.36.0",
+    "standard-version": "^7.0.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/qdhuadi/eslint-config-aqsc/blob/master/LICENSE"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
