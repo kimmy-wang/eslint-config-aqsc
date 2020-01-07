@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/qdhuadi/eslint-config-aqsc/compare/v0.1.1...v0.2.0) (2020-01-07)
+
+
+### Bug Fixes
+
+* bug fixed ([ee8822a](https://github.com/qdhuadi/eslint-config-aqsc/commit/ee8822a285f418dc149f2b05898a8ed971dd738f))
+
 ### [0.1.1](https://github.com/qdhuadi/eslint-config-aqsc/compare/v0.1.0...v0.1.1) (2020-01-07)
 
 
