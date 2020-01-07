@@ -1,5 +1,5 @@
 {
-  "name": "@aqsc/eslint-config-aqsc",
+  "name": "eslint-config-aqsc",
   "version": "0.2.1",
   "description": "eslint-config-aqsc.",
   "keywords": [
