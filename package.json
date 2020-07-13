@@ -61,7 +61,7 @@
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
     "sort-package-json": "1.36.0",
-    "standard-version": "^7.0.1"
+    "standard-version": "^8.0.1"
   },
   "peerDependencies": {
     "eslint": "6.7.1"
